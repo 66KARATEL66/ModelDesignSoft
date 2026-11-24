@@ -110,7 +110,6 @@ AddTag(luffyFigurine, protagonistTag);
 AddTag(luffyFigurine, limitedTag);
 AddTag(zoroFigurine, swordsmanTag);
 
-var service = new AnimeFigurineService(repository);
 var labRunner = new LabScripts.AllLabsRunner(repository, figurineDb, seriesDb, tagDb);
 labRunner.RunAll();
 
