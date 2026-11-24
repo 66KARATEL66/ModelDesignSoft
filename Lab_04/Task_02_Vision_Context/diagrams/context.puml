@@ -1,0 +1,1 @@
+@startuml rectangle "Anime Figurine Store" as Store actor Customer actor Administrator actor PaymentSystem Customer --> Store : browse / order Store --> Customer : catalog / status Administrator --> Store : manage catalog Store --> PaymentSystem : request payment PaymentSystem --> Store : payment result @enduml

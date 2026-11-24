@@ -8,6 +8,9 @@ public class AnimeFigurineRepository
     private readonly DBItem<Figurine> _figurines;
     private readonly DBItem<CollectionTag> _tags;
     private readonly DBItem<FigurineTag> _figurineTags;
+    private readonly DBItem<Customer> _customers = new();
+    private readonly DBItem<Order> _orders = new();
+    private readonly DBItem<Payment> _payments = new();
 
     public AnimeFigurineRepository(
         DBItem<AnimeSeries> series,
@@ -24,6 +27,13 @@ public class AnimeFigurineRepository
     public IReadOnlyList<AnimeSeries> GetAllSeries() => _series.Items;
     public IReadOnlyList<Figurine> GetAllFigurines() => _figurines.Items;
     public IReadOnlyList<CollectionTag> GetAllTags() => _tags.Items;
+    public IReadOnlyList<Customer> GetAllCustomers() => _customers.Items;
+    public IReadOnlyList<Order> GetAllOrders() => _orders.Items;
+    public IReadOnlyList<Payment> GetAllPayments() => _payments.Items;
+
+    public void AddCustomer(Customer customer) => _customers.Add(customer);
+    public void AddOrder(Order order) => _orders.Add(order);
+    public void AddPayment(Payment payment) => _payments.Add(payment);
 
     public AnimeSeries? GetSeriesById(int id) => _series.Items.FirstOrDefault(item => item.Id == id);
 

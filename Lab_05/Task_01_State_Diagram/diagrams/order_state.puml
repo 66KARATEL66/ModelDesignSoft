@@ -1,0 +1,1 @@
+@startuml [*] --> Draft Draft --> Submitted : Submit [items > 0] Submitted --> Confirmed : Confirm Submitted --> Cancelled : Cancel Confirmed --> Paid : Pay Confirmed --> Cancelled : Cancel Paid --> Shipped : Ship Shipped --> Delivered : Deliver Shipped --> [*] : no transitions Delivered --> [*] Cancelled --> [*] @enduml

@@ -1,0 +1,1 @@
+@startuml class Customer class Figurine class Order class OrderItem class Payment class AnimeSeries Customer "1" -- "*" Order Order "1" *-- "*" OrderItem OrderItem "*" -- "1" Figurine Figurine "*" -- "1" AnimeSeries Order "1" -- "1" Payment @enduml

@@ -1,6 +1,7 @@
 using lb1.Data;
 using lb1.Models;
 using lb1.Services;
+using LabScripts;
 
 var seriesDb = new DBItem<AnimeSeries>();
 var figurineDb = new DBItem<Figurine>();
@@ -110,10 +111,8 @@ AddTag(luffyFigurine, limitedTag);
 AddTag(zoroFigurine, swordsmanTag);
 
 var service = new AnimeFigurineService(repository);
-service.DisplayStoreOverview();
-service.DisplaySeriesFigurines(onePiece.Id);
-service.DisplayFigurineDetails(luffyFigurine.Id);
-service.DisplayTagFigurines(protagonistTag.Id);
+var labRunner = new LabScripts.AllLabsRunner(repository, figurineDb, seriesDb, tagDb);
+labRunner.RunAll();
 
 void AddTag(Figurine figurine, CollectionTag tag)
 {

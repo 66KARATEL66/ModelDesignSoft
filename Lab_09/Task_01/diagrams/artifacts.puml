@@ -1,0 +1,1 @@
+@startuml artifact lb1.dll artifact lb1.exe artifact lb1.csproj artifact Program.cs artifact Models artifact Data artifact Services lb1.csproj --> lb1.dll lb1.exe --> lb1.dll lb1.dll *-- Models lb1.dll *-- Data lb1.dll *-- Services @enduml

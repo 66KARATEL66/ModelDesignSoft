@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "e94905c734aeb914",
+    "type": "split",
+    "children": [
+      {
+        "id": "79e7dd967cfa39a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b60961e461eaeff4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROJECT_AUDIT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PROJECT_AUDIT"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "79fb36d8235ec7f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f550678db53b0b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15063374b227dcbb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "09be10bc7bd44142",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "462b83774c6f05bb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "880f65389a388f2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f53b644877a3e38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3838fd0409714595",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PROJECT_AUDIT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9ad6e59b5b085e64",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PROJECT_AUDIT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "3852123a04c3a0e7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6e5aeadc793fe65c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f7713b57d77643dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PROJECT_AUDIT.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "b60961e461eaeff4",
+  "lastOpenFiles": [
+    "PROGRESS.md",
+    "FINAL_SUMMARY.md",
+    "ALL_LABS_REPORT.md",
+    "Lab_02/Task_01_Domain_Model/report.md",
+    "Lab_01/Task_02_Models/report.md",
+    "Lab_01/Task_01_Relational_Tables/report.md",
+    "Lab_03/Task_02_Use_Case_Model/report.md",
+    "Lab_02/Task_02_Domain_Module/report.md",
+    "PROJECT_AUDIT.md",
+    "Lab_09/Task_01/diagrams/artifacts.puml",
+    "Lab_09/Task_01/diagrams/deployment.puml",
+    "Lab_09/Task_01/diagrams",
+    "Lab_09/Task_01",
+    "Lab_08/Task_01/diagrams/classes.puml",
+    "Lab_08/Task_01/diagrams",
+    "Lab_08/Task_01",
+    "Lab_07/Task_01/diagrams/packages.puml",
+    "Lab_07/Task_01/diagrams",
+    "Lab_07/Task_01",
+    "Lab_01/Task_04_Service/report.md",
+    "Lab_09/Task_02_Deployment_Module/report.md",
+    "Lab_05/Task_02_State_Module/report.md",
+    "Lab_04/Task_02_Vision_Context/report.md",
+    "Lab_06/Task_01_Sequence_Diagram/report.md",
+    "Lab_03/Task_01_Use_Cases_Diagram/report.md",
+    "Lab_03/Task_03_Scenario_Module/report.md",
+    "Lab_09/Task_01_Artifact_Deployment/report.md",
+    "Lab_05/Task_01_State_Diagram/report.md",
+    "Lab_04/Task_03_Requirements_Module/report.md",
+    "Lab_01/Task_03_Repository/report.md",
+    "Lab_08/Task_02_Class_Module/report.md",
+    "Lab_04/Task_01_NFR_Specification/report.md",
+    "Lab_07/Task_01_Package_Diagram/report.md",
+    "Lab_08/Task_01_Class_Diagram/report.md",
+    "Lab_07/Task_02_Package_Module/report.md",
+    "Lab_06/Task_02_Order_Scenario/report.md"
+  ]
+}
