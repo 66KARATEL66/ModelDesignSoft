@@ -1,1 +1,0 @@
-@startuml node "Developer workstation" { node ".NET 8 runtime" { artifact lb1.dll artifact lb1.exe } } node "Payment provider (external)" actor Customer Customer --> lb1.exe : console UI lb1.exe --> "Payment provider (external)" : payment API (future) @enduml

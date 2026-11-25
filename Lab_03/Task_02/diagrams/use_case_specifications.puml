@@ -1,1 +1,0 @@
-@startuml title Use-case model Customer -> Store: PlaceOrder Store -> PaymentSystem: ProcessPayment PaymentSystem --> Store: PaymentResult Store --> Customer: OrderStatus @enduml

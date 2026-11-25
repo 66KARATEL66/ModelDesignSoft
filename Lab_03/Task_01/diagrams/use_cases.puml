@@ -1,1 +1,0 @@
-@startuml left to right direction actor Customer actor Administrator actor PaymentSystem rectangle Store { Customer --> (View catalog) Customer --> (Place order) (Place order) ..> (Pay) : <<include>> Administrator --> (Manage catalog) PaymentSystem --> (Process payment) } @enduml

@@ -1,1 +1,0 @@
-@startuml package lb1.Models package lb1.Data package lb1.Services package root lb1.Data --> lb1.Models lb1.Services --> lb1.Data lb1.Services --> lb1.Models root --> lb1.Services root --> lb1.Data root --> lb1.Models @enduml
