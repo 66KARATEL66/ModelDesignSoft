@@ -1,8 +1,6 @@
-using lb1.Data;
-
 namespace lb1.Models;
 
-public class CollectionTag : IEntity
+public sealed class CollectionTag
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;

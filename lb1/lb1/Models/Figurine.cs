@@ -1,12 +1,10 @@
-using lb1.Data;
-
 namespace lb1.Models;
 
-public class Figurine : IEntity
+public sealed class Figurine
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
-    public int Price { get; set; } // uah
+    public int Price { get; set; }
     public int AnimeSeriesId { get; set; }
     public AnimeSeries? AnimeSeries { get; set; }
     public FigurineSpecification? Specification { get; set; }

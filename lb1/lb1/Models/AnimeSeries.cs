@@ -1,8 +1,6 @@
-using lb1.Data;
-
 namespace lb1.Models;
 
-public class AnimeSeries : IEntity
+public sealed class AnimeSeries
 {
     public int Id { get; set; }
     public string Title { get; set; } = string.Empty;

@@ -1,8 +1,6 @@
-using lb1.Data;
-
 namespace lb1.Models;
 
-public class FigurineSpecification : IEntity
+public sealed class FigurineSpecification
 {
     public int Id { get; set; }
     public int FigurineId { get; set; }
